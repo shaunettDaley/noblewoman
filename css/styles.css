@@ -1,0 +1,69 @@
+body{
+    margin:0 auto;
+    background-image:url('/images/dove.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center center;
+}
+
+header{
+    background:black;
+    height:100vh;
+    width:100%;
+    background-image:url('/images/women2.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+   /* background-attachment: fixed;*/
+    background-position:center center;
+}
+
+
+.swek{
+    background:#fff;
+    width:100%;
+    height:300px;
+    transform:skew(0deg,-10deg) translateY(-120px);
+  
+}
+
+.content{
+    transform:skew(0deg, 10deg);
+    text-align:center;
+    padding-top:74px;
+}
+
+.backgroundWhite{
+    background:#fff;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.transparentChange{
+    background-color: black !important;
+  color:#fff !important;
+  }
+
+  .specialFont{
+    font-family: 'Charm', cursive;
+  }
+
+
+@media only screen and (max-width : 768px) {
+    nav.navbar.navbar-expand-md.fixed-top.justify-content-center.navbar-dark{
+        background:#000;
+    }
+     
+    header{
+        height:60vh;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: #ffffff !important;
+    }
+}

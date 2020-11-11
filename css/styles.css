@@ -1,6 +1,6 @@
 body{
     margin:0 auto;
-    background-image:url('/images/dove.png');
+    background-image:url('./images/dove.png');
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -11,7 +11,7 @@ header{
     background:black;
     height:100vh;
     width:100%;
-    background-image:url('/images/women2.jpg');
+    background-image:url('./images/women2.jpg');
     background-size:cover;
     background-repeat:no-repeat;
    /* background-attachment: fixed;*/

@@ -18,6 +18,18 @@ header{
     background-position:center center;
 }
 
+.header-sub{
+    background:black;
+    height:70vh;
+    width:100%;
+    background-image:url('../images/women2.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+   /* background-attachment: fixed;*/
+    background-position:center center;
+}
+
+
 
 .swek{
     background:#fff;
@@ -33,7 +45,18 @@ header{
     padding-top:74px;
 }
 
+.content-sub{
+    text-align:center;
+    padding-top:74px;
+}
+
 .backgroundWhite{
+    background:#fff;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.backgroundWhite2{
     background:#fff;
     padding-top:30px;
     padding-bottom:30px;

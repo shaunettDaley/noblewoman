@@ -57,7 +57,7 @@ header{
 }
 
 .backgroundWhite2{
-    background:#fff;
+    background-color:rgb(255,255,255,0.3);
     padding-top:30px;
     padding-bottom:30px;
 }

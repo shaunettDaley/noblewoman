@@ -1,0 +1,156 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+          <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Satisfy&display=swap" rel="stylesheet">
+        <title>Noble Women</title>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-md fixed-top justify-content-center navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="images/noble_logo.png" alt="logo" style="width:132px;">
+              </a>
+
+              <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Get To Know Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contribute</a>
+              </li>
+            </ul>
+          </div>
+          </nav>
+<header class="header-sub">
+
+</header>
+<div class="container">
+    <div class="content-sub container">
+        <h1 class="specialFont">Get To Know Us</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i Lorem 
+            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i Lorem Ipsum 
+            is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i Lorem Ipsum 
+            is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i
+        </p>
+    </div>
+   
+  </div>
+
+  <div class="container text-center">
+    <h3 class="specialFont">remove the .navbar-expand-</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i Lorem 
+        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i Lorem Ipsum 
+        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i Lorem Ipsum 
+        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i
+    </p>
+  </div>
+  
+
+<div class="container backgroundWhite">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 ">
+                <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                </p>
+                <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                </p>
+                <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                </p>
+                <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                </p>
+                <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                </p>
+                <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                </p>
+                <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                </p>
+                <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                    Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+                </p>
+            </div>
+    
+            
+        </div>
+       
+    </div>
+</div>
+
+<div class="container text-center" style="height: 200px;">
+  
+  </div>
+
+<div class="jumbotron text-center" style="margin-bottom:0;background:teal;">
+    <p>Footer</p>
+  </div>
+
+
+<script>
+    let header = document.querySelector('.homepage');
+let x = 0;
+let timer = 3000;
+let imageSlide = [];
+
+imageSlide[0] = './images/women2.jpg';
+imageSlide[1] = './images/orchid.jpg';
+imageSlide[2] = './images/woman3.jpg';
+console.log(imageSlide[0]);
+
+let slidenow = () => {
+  header.style.backgroundImage = `url(${imageSlide[x]})`;
+  if( x < imageSlide.length - 1){
+    
+    x++;
+  }else{
+    x = 0;
+  }
+
+  setTimeout(()=> {
+
+    slidenow();
+  },timer)
+}
+
+
+window.onload = slidenow();
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./JS/init.js"></script>
+    </body>
+</html>
